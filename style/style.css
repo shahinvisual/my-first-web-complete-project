@@ -49,6 +49,19 @@ img{
     cursor: pointer;
     margin: 25px;
 }
+.btn-2{
+    justify-content: center;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    margin: 25px;
+}
 
 /* section style */
 main{
@@ -81,6 +94,11 @@ main{
     font-size: 20px;
     font-weight: 800;
 }
+.section-title-2{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
 
 .layer-1{
     display: flex;
@@ -109,6 +127,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 60px;
 }
 .text-title{
     text-align: center;
@@ -123,6 +142,9 @@ main{
 }
 iframe{
     border-radius: 16px;
+}
+.padding-r2{
+    padding: 64px;
 }
 .img-1{
     width: 39.68px;
@@ -179,6 +201,10 @@ iframe{
 .title-description{
     color: rgba(13, 19, 33, 0.7);
 }
+.title-description-2{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
 .button-all{
 color: rgb(13, 19, 33);
 font-size: 15px;
@@ -189,5 +215,57 @@ opacity: 0.7;
 padding: 8px 12px;
 border-radius: 8px;
 }
+.title-padding{
+    padding: 20px;
+}
 
+
+/* footer style */
+
+.bg-img{
+    background-image: url("../assets/handshake.jpg");
+    margin: 0 auto;
+    background-size: cover;
+    width: 1140px;
+    height: 314px;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    background-position: center;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+
+}
+.display-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.txt-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.txt-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.txt-area-1{
+text-align: center;
+width: 400px;
+height: 48px;
+margin: 10px auto;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.submit-btn{
+width: 150px;
+height: 52px;
+text-align: center;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+} 
 
