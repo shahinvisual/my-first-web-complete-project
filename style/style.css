@@ -103,6 +103,24 @@ main{
     width: 850px;
     align-items: center;
 }
+.text-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-title{
+    text-align: center;
+    margin: 20px;
+}
+.section-iframe {
+    border: 2px solid rgba(13, 19, 33, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+}
+iframe{
+    border-radius: 8px;
+}
 
 
 /* shared style */
@@ -115,7 +133,3 @@ main{
 }
 
 
-/* child container style */
-.child-container{
-    
-}
