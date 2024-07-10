@@ -15,6 +15,7 @@ header{
     background-image: url("../assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 .header-area{
     display: flex;
@@ -51,10 +52,10 @@ img{
 
 /* section style */
 main{
-    padding: 84px;
+    padding: 120px;
 }
 .border-r{
-    padding:10px;
+    padding: 20px 80px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin: 0 100px;
@@ -114,13 +115,60 @@ main{
     margin: 20px;
 }
 .section-iframe {
-    border: 2px solid rgba(13, 19, 33, 0.2);
+    border: 1px solid rgba(13, 19, 33, 0.2);
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 16px;
+    width: 1080px;
+    height: 700px;
 }
 iframe{
-    border-radius: 8px;
+    border-radius: 16px;
 }
+.img-1{
+    width: 39.68px;
+    height: 45px;
+}
+.raw-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.bg-1{
+    width: 300px;
+    height: 250px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+
+}
+.bg-2{
+    width: 300px;
+    height: 250px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+
+}
+.bg-3{
+    width: 300px;
+    height: 250px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+
+}
+.ancor-tag{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
 
 
 /* shared style */
@@ -130,6 +178,16 @@ iframe{
 }
 .title-description{
     color: rgba(13, 19, 33, 0.7);
+}
+.button-all{
+color: rgb(13, 19, 33);
+font-size: 15px;
+font-weight: 500;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+padding: 8px 12px;
+border-radius: 8px;
 }
 
 
